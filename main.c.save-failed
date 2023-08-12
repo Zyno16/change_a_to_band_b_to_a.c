@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float a,b;
+
+    printf("enter a ?:");
+    scanf("%f",&a);
+    printf("Enter b");
+    scanf("%.2f",&b);
+   printf("the amount of b is %d",a);
+   printf("the amount of a is %d",b);
+    return 0;
+}
